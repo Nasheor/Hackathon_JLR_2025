@@ -1,0 +1,78 @@
+{
+  "best_global_step": 8,
+  "best_metric": 0.6666666666666666,
+  "best_model_checkpoint": "..\\models\\codebert_mini_lora\\checkpoint-8",
+  "epoch": 4.0,
+  "eval_steps": 500,
+  "global_step": 32,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_f1": 0.6666666666666666,
+      "eval_loss": 0.7938952445983887,
+      "eval_precision": 0.5,
+      "eval_recall": 1.0,
+      "eval_runtime": 2.7567,
+      "eval_samples_per_second": 2.902,
+      "eval_steps_per_second": 0.363,
+      "step": 8
+    },
+    {
+      "epoch": 2.0,
+      "eval_f1": 0.6666666666666666,
+      "eval_loss": 0.694435715675354,
+      "eval_precision": 0.5,
+      "eval_recall": 1.0,
+      "eval_runtime": 2.6964,
+      "eval_samples_per_second": 2.967,
+      "eval_steps_per_second": 0.371,
+      "step": 16
+    },
+    {
+      "epoch": 3.0,
+      "eval_f1": 0.0,
+      "eval_loss": 0.7396636605262756,
+      "eval_precision": 0.0,
+      "eval_recall": 0.0,
+      "eval_runtime": 2.665,
+      "eval_samples_per_second": 3.002,
+      "eval_steps_per_second": 0.375,
+      "step": 24
+    },
+    {
+      "epoch": 4.0,
+      "eval_f1": 0.5454545454545454,
+      "eval_loss": 0.6972765922546387,
+      "eval_precision": 0.42857142857142855,
+      "eval_recall": 0.75,
+      "eval_runtime": 2.8388,
+      "eval_samples_per_second": 2.818,
+      "eval_steps_per_second": 0.352,
+      "step": 32
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 40,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 65927339999232.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
