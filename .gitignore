@@ -1,5 +1,8 @@
 notebooks/token
 
+data/raw/bigvul.raw
+data/processed/with_cwe_projects_qualified
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
