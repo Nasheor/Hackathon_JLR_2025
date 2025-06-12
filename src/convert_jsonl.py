@@ -16,4 +16,4 @@ def json_to_jsonl(input_path: str, output_path: str):
             raise ValueError("Unsupported JSON top-level type")
 
 if __name__ == "__main__":
-    json_to_jsonl('../data/processed/cwe_119.json', '../data/processed/cwe_119.jsonl')
+    json_to_jsonl('../data/raw/cwe_119.json', '../data/processed/cwe_119.jsonl')
