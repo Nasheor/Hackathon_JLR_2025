@@ -12,30 +12,30 @@
     {
       "epoch": 1.0,
       "eval_f1": 0.0,
-      "eval_loss": 0.7034429907798767,
+      "eval_loss": 0.696441650390625,
       "eval_precision": 0.0,
       "eval_recall": 0.0,
-      "eval_runtime": 6.2239,
-      "eval_samples_per_second": 3.213,
-      "eval_steps_per_second": 0.482,
+      "eval_runtime": 6.1254,
+      "eval_samples_per_second": 3.265,
+      "eval_steps_per_second": 0.49,
       "step": 20
     },
     {
       "epoch": 2.0,
       "eval_f1": 0.0,
-      "eval_loss": 0.7067223787307739,
+      "eval_loss": 0.693236231803894,
       "eval_precision": 0.0,
       "eval_recall": 0.0,
-      "eval_runtime": 6.7984,
-      "eval_samples_per_second": 2.942,
-      "eval_steps_per_second": 0.441,
+      "eval_runtime": 6.2241,
+      "eval_samples_per_second": 3.213,
+      "eval_steps_per_second": 0.482,
       "step": 40
     }
   ],
   "logging_steps": 50,
-  "max_steps": 100,
+  "max_steps": 60,
   "num_input_tokens_seen": 0,
-  "num_train_epochs": 5,
+  "num_train_epochs": 3,
   "save_steps": 500,
   "stateful_callbacks": {
     "TrainerControl": {
